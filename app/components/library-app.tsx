@@ -31,10 +31,11 @@ function hash(value: string) {
 }
 
 function BookCover({ item, compact = false }: { item: CatalogItem; compact?: boolean }) {
+  const [failed, setFailed] = useState(false);
   const [background, foreground] = coverPalettes[hash(item.id) % coverPalettes.length];
   // External and owner-uploaded covers intentionally bypass Next's remote image allowlist.
   // eslint-disable-next-line @next/next/no-img-element
-  if (item.coverUrl) return <img className="book-cover-image" src={item.coverUrl} alt={`Обложка «${item.title}»`} />;
+  if (item.coverUrl && !failed) return <img className="book-cover-image" src={item.coverUrl} alt={`Обложка «${item.title}»`} loading="lazy" decoding="async" onError={() => setFailed(true)} />;
   return (
     <div className={`book-cover ${compact ? "book-cover--compact" : ""}`} style={{ background, color: foreground }}>
       <span className="book-cover__mark">VB</span>

@@ -70,7 +70,7 @@ async function syncCatalogCovers() {
   if (state?.value === coverIndex.meta.generatedAt) return;
   const statements = coverIndex.covers
     .filter((cover) => cover.editionId)
-    .map((cover) => env.DB.prepare("UPDATE editions SET cover_url = ? WHERE id = ?").bind(cover.url, cover.editionId));
+    .map((cover) => env.DB.prepare("UPDATE editions SET cover_url = ? WHERE id = ?").bind(`/api/covers/remote/${cover.workId}`, cover.editionId));
   for (const batch of chunks(statements, 75)) await env.DB.batch(batch);
   await db.insert(appMetadata).values({ key: "cover-map-generated-at", value: coverIndex.meta.generatedAt, updatedAt: new Date().toISOString() })
     .onConflictDoUpdate({ target: appMetadata.key, set: { value: coverIndex.meta.generatedAt, updatedAt: new Date().toISOString() } });

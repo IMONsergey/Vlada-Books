@@ -1,4 +1,546 @@
 {
-  "generatedAt": null,
-  "items": []
+  "generatedAt": "2026-08-24T19:43:16.961Z",
+  "items": [
+    {
+      "workId": "work-011-moy-teatr-tom-i",
+      "title": "Мой театр. Том I",
+      "author": "Николай Цискаридзе",
+      "reason": "low-confidence",
+      "selectedUrl": "https://knizhka.us/cdn/shop/files/tsiskaridze_moi_teatr._kniga_1_1.jpg?v=1709932735",
+      "sourcePage": "https://knizhka.us/products/nikolai-tsiskaridze-moi-teatr-kniga-1?srsltid=AfmBOoo8e07q2x8e4yjunPnbT081N-1hIlhAoA2ArbfsVTj9F3bIeIz7",
+      "score": 68
+    },
+    {
+      "workId": "work-106-klanlandiya-zemlya-klanov",
+      "title": "Кланландия. Земля кланов",
+      "author": "Сэм Хьюэн; Грэм Мактавиш",
+      "reason": "low-confidence",
+      "selectedUrl": "https://cdn.litres.ru/pub/c/cover/67422905.jpg",
+      "sourcePage": null,
+      "score": 58
+    },
+    {
+      "workId": "work-004-coco-chanel-zhenschina-sovershivshaya-revolyuciyu-v-",
+      "editionId": "edition-004",
+      "title": "Coco Chanel. Женщина, совершившая революцию в моде",
+      "author": "Кьяра Паскуалетти Джонсон",
+      "publisher": "ОДРИ",
+      "publicationYear": 2024,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-010-poveliteli-mody",
+      "editionId": "edition-010",
+      "title": "Повелители моды",
+      "author": "Мария Луиза Тагариелло",
+      "publisher": "КоЛибри",
+      "publicationYear": 2026,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-012-moy-teatr-tom-ii",
+      "editionId": "edition-012",
+      "title": "Мой театр. Том II",
+      "author": "Николай Цискаридзе",
+      "publisher": "АСТ",
+      "publicationYear": 2024,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-016-romanovy-put-svyatosti-i-golgofy",
+      "editionId": "edition-016",
+      "title": "Романовы. Путь святости и Голгофы",
+      "author": "Автор не указан",
+      "publisher": "ЦИЗ",
+      "publicationYear": 2026,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-023-skazochnyy-edinorog",
+      "editionId": "edition-023",
+      "title": "Сказочный единорог",
+      "author": "Удо Вайгельт",
+      "publisher": "Баобаб",
+      "publicationYear": 2021,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-025-more-vnutri",
+      "editionId": "edition-025",
+      "title": "Море внутри",
+      "author": "Софи Гилмор",
+      "publisher": "Поляндрия",
+      "publicationYear": 2024,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-030-pushistyy-angel",
+      "editionId": "edition-030",
+      "title": "Пушистый ангел",
+      "author": "Марайке Аммерскен",
+      "publisher": "Нигма",
+      "publicationYear": 2024,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-031-malenkaya-ezhinka-i-bolshaya-ezhevika",
+      "editionId": "edition-031",
+      "title": "Маленькая Ежинка и большая ежевика",
+      "author": "Ульрика Кестере",
+      "publisher": "Белая ворона",
+      "publicationYear": 2020,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-035-hranitel-luny",
+      "editionId": "edition-035",
+      "title": "Хранитель Луны",
+      "author": "Зощенька",
+      "publisher": "Поляндрия",
+      "publicationYear": 2022,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-041-skoro-skoro",
+      "editionId": "edition-041",
+      "title": "Скоро-скоро",
+      "author": "Таэко Окада",
+      "publisher": "Поляндрия",
+      "publicationYear": 2020,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-045-skazki-svoimi-rukami-istorii-s-pushistym-hvostom",
+      "editionId": "edition-045",
+      "title": "Сказки своими руками. Истории с пушистым хвостом",
+      "author": "В. Деттева",
+      "publisher": "Питер",
+      "publicationYear": 2022,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-046-zimnie-tancy",
+      "editionId": "edition-046",
+      "title": "Зимние танцы",
+      "author": "Мэрион Дейн Бауэр",
+      "publisher": "Поляндрия",
+      "publicationYear": 2019,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-047-zavetnoe-zhelanie-krotika",
+      "editionId": "edition-047",
+      "title": "Заветное желание кротика",
+      "author": "Сангын Ким",
+      "publisher": "Поляндрия",
+      "publicationYear": 2024,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-068-diavola",
+      "editionId": "edition-068",
+      "title": "Диавола",
+      "author": "Дженнифер Торн",
+      "publisher": "Дом историй",
+      "publicationYear": 2025,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-071-istorii-o-pandimune",
+      "editionId": "edition-071",
+      "title": "Истории о Пандимуне",
+      "author": "Кристина Нэуен",
+      "publisher": "Городец",
+      "publicationYear": 2022,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-075-belyy-lis",
+      "editionId": "edition-075",
+      "title": "Белый лис",
+      "author": "Тимоте Ле Веэль",
+      "publisher": "Поляндрия",
+      "publicationYear": 2019,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-078-kogda-medved-vlyublen",
+      "editionId": "edition-078",
+      "title": "Когда медведь влюблён",
+      "author": "Ирина Зартайская",
+      "publisher": "Поляндрия",
+      "publicationYear": 2021,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-079-doklad-o-medvedyah",
+      "editionId": "edition-079",
+      "title": "Доклад о медведях",
+      "author": "Тира Хедер",
+      "publisher": "Поляндрия",
+      "publicationYear": 2020,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-080-chto-nuzhno-malenkoy-koshke",
+      "editionId": "edition-080",
+      "title": "Что нужно маленькой кошке",
+      "author": "Наталья Шалошвили",
+      "publisher": "Поляндрия",
+      "publicationYear": 2021,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-085-ya-lyubila-tebya-vsegda",
+      "editionId": "edition-085",
+      "title": "Я любила тебя всегда",
+      "author": "Хода Котб",
+      "publisher": "Гудвин",
+      "publicationYear": 2021,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-088-pingvinenok-tommi-edet-domoy",
+      "editionId": "edition-088",
+      "title": "Пингвинёнок Томми едет домой",
+      "author": "Елена Киричек",
+      "publisher": "Бумба",
+      "publicationYear": 2025,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-091-svet-severa",
+      "editionId": "edition-091",
+      "title": "Свет севера",
+      "author": "Света Сивирина",
+      "publisher": "Крылья",
+      "publicationYear": 2021,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-092-sharf-dlya-hvosta",
+      "editionId": "edition-092",
+      "title": "Шарф для хвоста",
+      "author": "Наталья Шалошвили",
+      "publisher": "Нигма",
+      "publicationYear": 2022,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-095-zima-v-teple",
+      "editionId": "edition-095",
+      "title": "Зима в тепле",
+      "author": "Анн Эрбо",
+      "publisher": "Самокат",
+      "publicationYear": 2024,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-098-snezhinka-ispolnyayuschaya-zhelaniya",
+      "editionId": "edition-098",
+      "title": "Снежинка, исполняющая желания",
+      "author": "Автор не указан",
+      "publisher": "Эксмо Детство",
+      "publicationYear": 2020,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-099-zemlyanichnaya-noch",
+      "editionId": "edition-099",
+      "title": "Земляничная ночь",
+      "author": "Акико Миякоси",
+      "publisher": "Поляндрия",
+      "publicationYear": 2026,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-101-kolyuchiy-pirog",
+      "editionId": "edition-101",
+      "title": "Колючий пирог",
+      "author": "Рейси Хелпс",
+      "publisher": "Гудвин",
+      "publicationYear": 2023,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-102-dyhanie-kamnya-miry-filmov-andreya-zvyaginceva",
+      "editionId": "edition-102",
+      "title": "Дыхание камня. Миры фильмов Андрея Звягинцева",
+      "author": "Автор не указан",
+      "publisher": "Новое литературное обозрение",
+      "publicationYear": 2018,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-108-o-proshlom-i-perezhitom",
+      "editionId": "edition-108",
+      "title": "О прошлом и пережитом",
+      "author": "Автор не указан",
+      "publisher": null,
+      "publicationYear": 2018,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-118-noch-pered-rozhdestvom",
+      "editionId": "edition-118",
+      "title": "Ночь перед Рождеством",
+      "author": "Николай Гоголь",
+      "publisher": "МИФ",
+      "publicationYear": 2025,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-120-pikovaya-dama",
+      "editionId": "edition-120",
+      "title": "Пиковая дама",
+      "author": "Александр Пушкин",
+      "publisher": "МИФ",
+      "publicationYear": 2025,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-125-kto-kak-est",
+      "editionId": "edition-125",
+      "title": "Кто как ест",
+      "author": "Юлия Смирнова",
+      "publisher": "Качели",
+      "publicationYear": 2019,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-126-zima-skazki-teplogo-lesa",
+      "editionId": "edition-126",
+      "title": "Зима. Сказки Тёплого леса",
+      "author": "Анна Илюченко-Малышева",
+      "publisher": null,
+      "publicationYear": 2025,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-128-sobaka-ulybaka",
+      "editionId": "edition-128",
+      "title": "Собака-улыбака",
+      "author": "Оля Витыцкая",
+      "publisher": "СмартБук",
+      "publicationYear": 2026,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-132-raduga-dlya-chudika",
+      "editionId": "edition-132",
+      "title": "Радуга для чудика",
+      "author": "Наталья Шицкая",
+      "publisher": "Нигма",
+      "publicationYear": 2022,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-138-istoriya-na-vkus",
+      "editionId": "edition-138",
+      "title": "История на вкус",
+      "author": "Макс Миллер",
+      "publisher": "Альпина",
+      "publicationYear": 2026,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-143-granatovyy-braslet",
+      "editionId": "edition-143",
+      "title": "Гранатовый браслет",
+      "author": "Александр Куприн",
+      "publisher": "МИФ",
+      "publicationYear": 2025,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-147-zimnie-skazki",
+      "editionId": "edition-147",
+      "title": "Зимние сказки",
+      "author": "Александр Куприн",
+      "publisher": "МИФ",
+      "publicationYear": 2024,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-149-prizrak-opery",
+      "editionId": "edition-149",
+      "title": "Призрак оперы",
+      "author": "Гастон Леру",
+      "publisher": "МИФ",
+      "publicationYear": 2024,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-154-martin-iden",
+      "editionId": "edition-154",
+      "title": "Мартин Иден",
+      "author": "Джек Лондон",
+      "publisher": "МИФ",
+      "publicationYear": 2025,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-158-sobor-parizhskoy-bogomateri",
+      "editionId": "edition-158",
+      "title": "Собор Парижской Богоматери",
+      "author": "Виктор Гюго",
+      "publisher": "МИФ",
+      "publicationYear": 2024,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-174-love-death-robots-vselennaya-seriala-lyubov-smert-i-",
+      "editionId": "edition-177",
+      "title": "LOVE, DEATH + ROBOTS. Вселенная сериала «Любовь, смерть и роботы»",
+      "author": "Рамин Захед",
+      "publisher": "Titan books",
+      "publicationYear": 2024,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-175-black-mirror-vnutri-chernogo-zerkala",
+      "editionId": "edition-178",
+      "title": "Black Mirror. Внутри «Чёрного зеркала»",
+      "author": "Чарли Брукер; Аннабель Джонс",
+      "publisher": "Эксмо",
+      "publicationYear": 2019,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-183-ledi-makbet",
+      "editionId": "edition-186",
+      "title": "Леди Макбет",
+      "author": "Ава Райд",
+      "publisher": "Эксмо",
+      "publicationYear": 2024,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-190-mir-igry-the-last-of-us-part-ii",
+      "editionId": "edition-193",
+      "title": "Мир игры The Last of Us Part II",
+      "author": "Автор не указан",
+      "publisher": "XL Media",
+      "publicationYear": 2021,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-191-mir-vedmaka",
+      "editionId": "edition-194",
+      "title": "Мир Ведьмака",
+      "author": "Автор не указан",
+      "publisher": "Dark Horse",
+      "publicationYear": 2018,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-193-iskusstvo-igry-assassin-s-creed-odisseya",
+      "editionId": "edition-196",
+      "title": "Искусство игры Assassin’s Creed: Одиссея",
+      "author": "Автор не указан",
+      "publisher": "Эксмо",
+      "publicationYear": 2018,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-194-mir-igry-atomic-heart",
+      "editionId": "edition-198",
+      "title": "Мир игры Atomic Heart",
+      "author": "Автор не указан",
+      "publisher": "XL Media",
+      "publicationYear": 2023,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-196-vampirologiya-istinnaya-istoriya-padshih",
+      "editionId": "edition-200",
+      "title": "Вампирология. Истинная история падших",
+      "author": "Автор не указан",
+      "publisher": "Махаон",
+      "publicationYear": null,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-200-vospominaniya-nekomaty-koshki-oborotnya",
+      "editionId": "edition-204",
+      "title": "Воспоминания нэкоматы — кошки-оборотня",
+      "author": "Марга Блэкбанши",
+      "publisher": "АСТ",
+      "publicationYear": 2024,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-201-devushka-v-dior",
+      "editionId": "edition-205",
+      "title": "Девушка в Dior",
+      "author": "Анни Гетцингер",
+      "publisher": "ОДРИ",
+      "publicationYear": 2019,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-205-zabroshennye-goroda-sssr",
+      "editionId": "edition-209",
+      "title": "Заброшенные города СССР",
+      "author": "Арсений Котов",
+      "publisher": "АСТ",
+      "publicationYear": 2023,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-208-mariya-antuanetta-vzlet-i-padenie-korolevy-francii",
+      "editionId": "edition-212",
+      "title": "Мария Антуанетта. Взлёт и падение королевы Франции",
+      "author": "Loputyn",
+      "publisher": "МИФ",
+      "publicationYear": 2026,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-211-chenseri-leyn",
+      "editionId": "edition-215",
+      "title": "Ченсери-лейн",
+      "author": "Дебора Нейфер",
+      "publisher": "МИФ",
+      "publicationYear": 2024,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-216-cvety-v-iskusstve",
+      "editionId": "edition-220",
+      "title": "Цветы в искусстве",
+      "author": "Автор не указан",
+      "publisher": "Бомбора",
+      "publicationYear": 2026,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-227-zhivotnye-polnaya-enciklopediya",
+      "editionId": "edition-233",
+      "title": "Животные. Полная энциклопедия",
+      "author": "Автор не указан",
+      "publisher": "Эксмо",
+      "publicationYear": 2006,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-234-disney-dlya-malyshey-zacharovannaya",
+      "editionId": "edition-245",
+      "title": "Дисней для малышей. Зачарованная",
+      "author": "Автор не указан",
+      "publisher": "Disney",
+      "publicationYear": null,
+      "reason": "public-cover-not-found"
+    },
+    {
+      "workId": "work-235-hondo-i-fabian",
+      "editionId": "edition-246",
+      "title": "Хондо и Фабиан",
+      "author": "Питер Маккарти",
+      "publisher": "Издательский Дом Мещерякова",
+      "publicationYear": 2019,
+      "reason": "public-cover-not-found"
+    }
+  ]
 }
+

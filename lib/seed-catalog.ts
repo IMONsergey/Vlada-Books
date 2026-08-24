@@ -36,7 +36,7 @@ export function getSeedCatalog(): CatalogResponse {
       language: edition?.language ?? "ru",
       features: edition?.features ?? null,
       format: edition?.format ?? "hardcopy",
-      coverUrl: cover?.url ?? null,
+      coverUrl: cover ? `/api/covers/remote/${work.id}` : null,
       coverKey: null,
       pages: null,
       copies: edition ? copiesByEdition.get(edition.id) ?? 1 : 1,
