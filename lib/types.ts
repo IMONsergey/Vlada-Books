@@ -37,5 +37,6 @@ export type CatalogResponse = {
     works: number;
     editions: number;
     copies: number;
+    covers: number;
   };
 };

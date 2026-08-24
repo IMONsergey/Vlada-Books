@@ -1,0 +1,36 @@
+name: Enrich book covers
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/enrich-book-covers.mjs"
+      - "app/data/catalog-seed.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: enrich-book-covers
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Resolve covers from public book catalogs
+        run: node scripts/enrich-book-covers.mjs --refresh
+      - name: Commit resolved cover index
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/data/cover-map.json app/data/cover-review.json
+          git diff --cached --quiet || git commit -m "Enrich catalog with verified book covers"
+          git push

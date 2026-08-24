@@ -186,3 +186,9 @@ export const readingGoals = sqliteTable(
   },
   (table) => [uniqueIndex("reading_goals_year_uidx").on(table.year)],
 );
+
+export const appMetadata = sqliteTable("app_metadata", {
+  key: text("key").primaryKey(),
+  value: text("value").notNull(),
+  updatedAt: text("updated_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+});

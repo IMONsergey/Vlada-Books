@@ -88,6 +88,7 @@ for (const row of rows) {
     language,
     features: row.features || null,
     format: row.genre === "Журнал" ? "magazine" : "hardcopy",
+    coverUrl: null,
   });
   copies.push({
     id: `copy-${String(copies.length + 1).padStart(3, "0")}`,

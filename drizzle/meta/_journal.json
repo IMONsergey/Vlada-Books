@@ -8,6 +8,13 @@
       "when": 1787598401841,
       "tag": "0000_talented_leo",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1787599323311,
+      "tag": "0001_silent_shiver_man",
+      "breakpoints": true
     }
   ]
 }

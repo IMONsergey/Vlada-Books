@@ -1,10 +1,13 @@
+import { env } from "cloudflare:workers";
 import { and, asc, count, eq } from "drizzle-orm";
 import catalogSeed from "../app/data/catalog-seed.json";
+import coverMap from "../app/data/cover-map.json";
 import { getDb } from "../db";
 import {
   contributors,
   copies,
   editions,
+  appMetadata,
   progressEvents,
   readingAttempts,
   workContributors,
@@ -13,6 +16,11 @@ import {
 import type { CatalogItem, CatalogResponse, ReadingStatus } from "./types";
 
 const CHUNK_SIZE = 40;
+type CoverIndex = {
+  meta: { generatedAt: string | null };
+  covers: Array<{ workId: string; editionId: string | null; url: string }>;
+};
+const coverIndex = coverMap as CoverIndex;
 const readingStatuses = new Set<ReadingStatus>([
   "owned",
   "want_to_read",
@@ -32,7 +40,10 @@ function chunks<T>(items: T[], size = CHUNK_SIZE) {
 export async function ensureCatalogSeeded() {
   const db = getDb();
   const [{ value }] = await db.select({ value: count() }).from(works);
-  if (value > 0) return;
+  if (value > 0) {
+    await syncCatalogCovers();
+    return;
+  }
 
   for (const batch of chunks(catalogSeed.works)) {
     await db.insert(works).values(batch).onConflictDoNothing();
@@ -49,6 +60,20 @@ export async function ensureCatalogSeeded() {
   for (const batch of chunks(catalogSeed.copies)) {
     await db.insert(copies).values(batch).onConflictDoNothing();
   }
+  await syncCatalogCovers();
+}
+
+async function syncCatalogCovers() {
+  if (!coverIndex.meta.generatedAt || !coverIndex.covers.length) return;
+  const db = getDb();
+  const [state] = await db.select().from(appMetadata).where(eq(appMetadata.key, "cover-map-generated-at")).limit(1);
+  if (state?.value === coverIndex.meta.generatedAt) return;
+  const statements = coverIndex.covers
+    .filter((cover) => cover.editionId)
+    .map((cover) => env.DB.prepare("UPDATE editions SET cover_url = ? WHERE id = ?").bind(cover.url, cover.editionId));
+  for (const batch of chunks(statements, 75)) await env.DB.batch(batch);
+  await db.insert(appMetadata).values({ key: "cover-map-generated-at", value: coverIndex.meta.generatedAt, updatedAt: new Date().toISOString() })
+    .onConflictDoUpdate({ target: appMetadata.key, set: { value: coverIndex.meta.generatedAt, updatedAt: new Date().toISOString() } });
 }
 
 export async function listCatalog(): Promise<CatalogResponse> {
@@ -112,6 +137,7 @@ export async function listCatalog(): Promise<CatalogResponse> {
       works: grouped.size,
       editions: rows.length,
       copies: rows.length,
+      covers: [...grouped.values()].filter((item) => item.coverUrl).length,
     },
   };
 }
